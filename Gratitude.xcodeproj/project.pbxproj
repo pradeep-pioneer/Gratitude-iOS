@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85C168BD1F28FEBC001163FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C168BC1F28FEBC001163FD /* AppDelegate.swift */; };
+		85C168BF1F28FEBC001163FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C168BE1F28FEBC001163FD /* ViewController.swift */; };
+		85C168C21F28FEBC001163FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C168C01F28FEBC001163FD /* Main.storyboard */; };
+		85C168C41F28FEBC001163FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C168C31F28FEBC001163FD /* Assets.xcassets */; };
+		85C168C71F28FEBC001163FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C168C51F28FEBC001163FD /* LaunchScreen.storyboard */; };
+		85C168D21F28FEBD001163FD /* GratitudeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C168D11F28FEBD001163FD /* GratitudeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85C168CE1F28FEBD001163FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85C168B11F28FEBC001163FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85C168B81F28FEBC001163FD;
+			remoteInfo = Gratitude;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85C168B91F28FEBC001163FD /* Gratitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gratitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C168BC1F28FEBC001163FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85C168BE1F28FEBC001163FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85C168C11F28FEBC001163FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85C168C31F28FEBC001163FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85C168C61F28FEBC001163FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85C168C81F28FEBC001163FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C168CD1F28FEBD001163FD /* GratitudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratitudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C168D11F28FEBD001163FD /* GratitudeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeTests.swift; sourceTree = "<group>"; };
+		85C168D31F28FEBD001163FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85C168B61F28FEBC001163FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C168CA1F28FEBD001163FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85C168B01F28FEBC001163FD = {
+			isa = PBXGroup;
+			children = (
+				85C168BB1F28FEBC001163FD /* Gratitude */,
+				85C168D01F28FEBD001163FD /* GratitudeTests */,
+				85C168BA1F28FEBC001163FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85C168BA1F28FEBC001163FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85C168B91F28FEBC001163FD /* Gratitude.app */,
+				85C168CD1F28FEBD001163FD /* GratitudeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85C168BB1F28FEBC001163FD /* Gratitude */ = {
+			isa = PBXGroup;
+			children = (
+				85C168BC1F28FEBC001163FD /* AppDelegate.swift */,
+				85C168BE1F28FEBC001163FD /* ViewController.swift */,
+				85C168C01F28FEBC001163FD /* Main.storyboard */,
+				85C168C31F28FEBC001163FD /* Assets.xcassets */,
+				85C168C51F28FEBC001163FD /* LaunchScreen.storyboard */,
+				85C168C81F28FEBC001163FD /* Info.plist */,
+			);
+			path = Gratitude;
+			sourceTree = "<group>";
+		};
+		85C168D01F28FEBD001163FD /* GratitudeTests */ = {
+			isa = PBXGroup;
+			children = (
+				85C168D11F28FEBD001163FD /* GratitudeTests.swift */,
+				85C168D31F28FEBD001163FD /* Info.plist */,
+			);
+			path = GratitudeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85C168B81F28FEBC001163FD /* Gratitude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C168D61F28FEBD001163FD /* Build configuration list for PBXNativeTarget "Gratitude" */;
+			buildPhases = (
+				85C168B51F28FEBC001163FD /* Sources */,
+				85C168B61F28FEBC001163FD /* Frameworks */,
+				85C168B71F28FEBC001163FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gratitude;
+			productName = Gratitude;
+			productReference = 85C168B91F28FEBC001163FD /* Gratitude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85C168CC1F28FEBD001163FD /* GratitudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C168D91F28FEBD001163FD /* Build configuration list for PBXNativeTarget "GratitudeTests" */;
+			buildPhases = (
+				85C168C91F28FEBD001163FD /* Sources */,
+				85C168CA1F28FEBD001163FD /* Frameworks */,
+				85C168CB1F28FEBD001163FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85C168CF1F28FEBD001163FD /* PBXTargetDependency */,
+			);
+			name = GratitudeTests;
+			productName = GratitudeTests;
+			productReference = 85C168CD1F28FEBD001163FD /* GratitudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85C168B11F28FEBC001163FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pradeep Singh";
+				TargetAttributes = {
+					85C168B81F28FEBC001163FD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					85C168CC1F28FEBD001163FD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85C168B81F28FEBC001163FD;
+					};
+				};
+			};
+			buildConfigurationList = 85C168B41F28FEBC001163FD /* Build configuration list for PBXProject "Gratitude" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85C168B01F28FEBC001163FD;
+			productRefGroup = 85C168BA1F28FEBC001163FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85C168B81F28FEBC001163FD /* Gratitude */,
+				85C168CC1F28FEBD001163FD /* GratitudeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85C168B71F28FEBC001163FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C168C71F28FEBC001163FD /* LaunchScreen.storyboard in Resources */,
+				85C168C41F28FEBC001163FD /* Assets.xcassets in Resources */,
+				85C168C21F28FEBC001163FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C168CB1F28FEBD001163FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85C168B51F28FEBC001163FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C168BF1F28FEBC001163FD /* ViewController.swift in Sources */,
+				85C168BD1F28FEBC001163FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C168C91F28FEBD001163FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C168D21F28FEBD001163FD /* GratitudeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85C168CF1F28FEBD001163FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85C168B81F28FEBC001163FD /* Gratitude */;
+			targetProxy = 85C168CE1F28FEBD001163FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85C168C01F28FEBC001163FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C168C11F28FEBC001163FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85C168C51F28FEBC001163FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C168C61F28FEBC001163FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85C168D41F28FEBD001163FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85C168D51F28FEBD001163FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85C168D71F28FEBD001163FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gratitude/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pioneersoft.Gratitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		85C168D81F28FEBD001163FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gratitude/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pioneersoft.Gratitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		85C168DA1F28FEBD001163FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GratitudeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pioneersoft.GratitudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gratitude.app/Gratitude";
+			};
+			name = Debug;
+		};
+		85C168DB1F28FEBD001163FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GratitudeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pioneersoft.GratitudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gratitude.app/Gratitude";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85C168B41F28FEBC001163FD /* Build configuration list for PBXProject "Gratitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C168D41F28FEBD001163FD /* Debug */,
+				85C168D51F28FEBD001163FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C168D61F28FEBD001163FD /* Build configuration list for PBXNativeTarget "Gratitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C168D71F28FEBD001163FD /* Debug */,
+				85C168D81F28FEBD001163FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85C168D91F28FEBD001163FD /* Build configuration list for PBXNativeTarget "GratitudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C168DA1F28FEBD001163FD /* Debug */,
+				85C168DB1F28FEBD001163FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85C168B11F28FEBC001163FD /* Project object */;
+}
