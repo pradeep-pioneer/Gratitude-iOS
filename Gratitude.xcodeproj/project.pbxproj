@@ -13,6 +13,7 @@
 		85C168C41F28FEBC001163FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C168C31F28FEBC001163FD /* Assets.xcassets */; };
 		85C168C71F28FEBC001163FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C168C51F28FEBC001163FD /* LaunchScreen.storyboard */; };
 		85C168D21F28FEBD001163FD /* GratitudeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C168D11F28FEBD001163FD /* GratitudeTests.swift */; };
+		85C168DF1F2B3B42001163FD /* ReflectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C168DE1F2B3B42001163FD /* ReflectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		85C168CD1F28FEBD001163FD /* GratitudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratitudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C168D11F28FEBD001163FD /* GratitudeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeTests.swift; sourceTree = "<group>"; };
 		85C168D31F28FEBD001163FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C168DE1F2B3B42001163FD /* ReflectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReflectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				85C168C31F28FEBC001163FD /* Assets.xcassets */,
 				85C168C51F28FEBC001163FD /* LaunchScreen.storyboard */,
 				85C168C81F28FEBC001163FD /* Info.plist */,
+				85C168DE1F2B3B42001163FD /* ReflectionViewController.swift */,
 			);
 			path = Gratitude;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				85C168BF1F28FEBC001163FD /* ViewController.swift in Sources */,
 				85C168BD1F28FEBC001163FD /* AppDelegate.swift in Sources */,
+				85C168DF1F2B3B42001163FD /* ReflectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
